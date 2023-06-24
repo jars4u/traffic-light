@@ -1,12 +1,62 @@
+/* TRAFFIC LIGHT */
+.post {
+    background-color: black;
+    margin: 0 auto;
+    height: 100px;
+    width: 30px;
+}
 
-/* 
+.box {
+    background-color: black;
+    margin: 0 auto;
+    height: 300px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+/* BOMBILLA */
+.bulb {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
 
-*/
+/* COLOR DE BOMBILLA */
+.red {
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+
+.yellow {
+    margin-top: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+
+.green {
+    margin-top: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* LUZ DE BOMBILLA */
+.redLight {
+    box-shadow: 0 0 75px rgb(255, 140, 140);
+}
+.yellowLight {
+    box-shadow: 0 0 75px rgb(255, 255, 140);
+}
+.greenLight {
+    box-shadow: 0 0 75px rgb(140, 255, 140);
+}
